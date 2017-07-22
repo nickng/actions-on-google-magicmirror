@@ -1,0 +1,37 @@
+Google Actions API with Go
+ABI.London Summer Codeathon
+22 Jul 2017
+
+Nicholas Ng
+Gopher
+nickng@nickng.io
+@nicholascwng
+
+* Basics
+
+Create new Actions on Google app
+.link https://console.actions.google.com
+
+Use API.AI to build a simple app
+.link https://console.api.ai
+
+- Create a new *agent*
+- Create new *entities* categories
+- Create new *intent* using the entity
+- What to do with the detected entity?
+
+* Fulfilment web service
+
+- Receive a request (with the entity) in JSON
+- Generate a reply for the request in JSON
+- Can be written in any programming language
+
+* Example: Magic Mirror
+
+_Mirror,_Mirror,_on_the_wall_
+
+_Who_is_the_fairest_one_of_all_
+
+- Detects "fair" or "pretty"
+- Responds "You" or "Snow White"
+- Written in Go, deployed on AppEngine
